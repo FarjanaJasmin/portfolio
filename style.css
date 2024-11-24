@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header span{
+    font-size: 24px;
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+.nav_items a{
+    font-size: 18px;
+    color: #000!important;
+    text-decoration: none;
+}
+
+main{
+    padding: 50px 0;
+}
+.hero_section{
+    display: flex;
+    gap: 20px;
+    padding: 100px 0;
+}
+.hero_bio{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.hero_bio p{
+    font-size: 18px;
+}
+.hero_bio button{
+    width: fit-content;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #FF6464;
+    color: #ffffff;
+    border: none;
+}
+.hero_image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero_image div{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.hero_image img{
+    width: 100%;
+}
+
+.skill_section{
+    padding: 50px 0;
+}
+
+.skill_section h1, .projects_section h1, .achivement_section h1, .contact_section h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.skill_icons{
+    padding-top: 50px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.skill_icons div{
+    width: 75px;
+}
+
+.skill_icons img{
+    width: 100%;
+}
+
+.projects_section{
+    padding: 50px 0;
+}
+
+.project_container{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.project_card{
+    display: flex;
+    gap: 40px;
+    border: 1px solid #cfcccc;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 10px #ee62622f;
+}
+.project_card div{
+    width: 50%;
+}
+.project_card .bio_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.project_card .bio_container div{
+    width: 100%;
+}
+
+.project_card .bio_container div ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    font-weight: 500;
+}
+
+.project_card div img{
+    width: 100%;
+}
+
+.achivement_section{
+    padding: 100px 0;
+}
+
+.all_achivement{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.education_details, .experience_details{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.all_achivement .achivement_card{
+    border: 1px solid #cfcccc;
+    padding: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 5px 10px #ee62622f;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 550px;
+}
+
+.all_achivement .achivement_card ul li{
+    margin-left: 20px;
+}
+
+.contact_section{
+    padding: 50px 0;
+}
+
+.contact_details{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.contact_details form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 20px;
+    border: 1px solid #cfcccc;
+    border-radius: 10px;
+}
+.contact_details form input, .contact_details form textarea{
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: 0.5 solid #000;
+}
+.contact_details form textarea{
+    min-height: 100px;
+}
+.contact_details form #submit_btn{
+    background-color: #FF6464;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #ee62622f;
+}
+
+footer .content_container{
+    padding: 5px 0 30px 0;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer div img{
+    width: 25%;
+}
+footer .link_container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+footer .link_container a img{
+    width: 50px;
+}
+
+footer .content_container span{
+    font-size: 18px;
+}
